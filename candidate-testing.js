@@ -36,11 +36,17 @@ const input = require('readline-sync');
 function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
-if (candidateAnswer.toLowerCase = correctAnswer.toLowerCase) 
+
+ 
+   
+  if (candidateAnswer.toLowerCase() == correctAnswer.toLowerCase()) {
  console.log( "Thats correct!" );
+
+}
+
 else 
   console.log("thats incorrect!")
-
+  
   let grade;  //TODO 3.2 use this variable to calculate the candidates score.
 
 
